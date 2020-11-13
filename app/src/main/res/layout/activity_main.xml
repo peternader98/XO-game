@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/YellowishWhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:layout_marginLeft="120sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="48sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:id="@+id/btn_onePlayer"
+        android:text="@string/one_player"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:layout_marginLeft="140sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:id="@+id/btn_twoPlayer"
+        android:text="@string/two_player"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:layout_marginLeft="140sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:id="@+id/btn_setting"
+        android:text="@string/setting"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:layout_marginLeft="140sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:id="@+id/btn_exit"
+        android:text="@string/exit"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:textStyle="bold"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="copyright : peter nader"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:layout_marginLeft="100sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
